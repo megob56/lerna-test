@@ -1,5 +1,3 @@
-const getDate = () => {
-    return new Date()
+module.exports = function getDate() {
+    return new Date();
 }
-
-export default getDate
