@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/megob56/lerna-test",
   "publishConfig": {
-    "@megob56:registry": "https://npm.pkg.github.com/megob56"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:megob56/lerna-test.git",
+    "directory": "packages/date-logic"
   },
   "author": "Meaghan OBrien",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "6a193973b254ef682fc0651a8c083d42fae1e383"
 }
