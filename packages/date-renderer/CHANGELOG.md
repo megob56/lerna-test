@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.10 (2021-10-15)
+
+
+### Bug Fixes
+
+* replaced package name to be correct ([84c900b](https://github.com/megob56/lerna-test/commit/84c900b2c1c981719e11e7674eacf7359922274f))
+
+
+
+
+
 ## 1.0.9 (2021-10-15)
 
 
