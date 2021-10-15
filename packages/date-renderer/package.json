@@ -1,0 +1,22 @@
+{
+  "name": "@megob56/date-renderer",
+  "version": "1.0.0",
+  "description": "A package that renders the current date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:megob56/lerna-test.git",
+    "directory": "packages/date-renderer"
+  },
+  "author": "Meaghan OBrien",
+  "license": "ISC",
+  "dependencies": {
+    "@megob56/date-logic": "^1.0.5"
+  }
+}
