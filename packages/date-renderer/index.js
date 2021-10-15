@@ -1,4 +1,4 @@
-import getDate from '@megob56/date-logic'
+const getDate = require('@xcanchal/date-logic');
 
 (() => {
   console.log(`Date: ${getDate()}`);
