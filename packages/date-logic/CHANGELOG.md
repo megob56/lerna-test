@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.9 (2021-10-15)
+
+
+### Reverts
+
+* went back to the original way of exporting modules because it keeps breaking otherwise ([47b0c11](https://github.com/megob56/lerna-test/commit/47b0c111aad0e18193fc01650742036d0a687391))
+
+
+
+
+
 ## 1.0.8 (2021-10-15)
 
 
