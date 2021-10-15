@@ -3,11 +3,14 @@
   "npmClient": "npm",
   "command": {
     "publish": {
+      "conventionalCommits": true,
       "ignoreChanges": [
         "ignored-file",
         "*.md"
       ],
-      "message": "chore(release): publish",
+      "version": {
+        "message": "chore(release): publish"
+      },
       "registry": "https://npm.pkg.github.com"
     },
     "bootstrap": {
@@ -16,6 +19,9 @@
         "--no-package-lock"
       ]
     }
+  },
+  "changelogPreset": {
+    "name": "conventionalcommits"
   },
   "packages": [
     "packages/*"

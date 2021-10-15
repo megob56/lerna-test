@@ -1,0 +1,29 @@
+name: Publish 
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    env: GITHUB_PACKAGES_AUTH_TOKEN: ${{secrets.GH_TOKEN}}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install packages
+        run: npm install
+
+      - name: Publish packages
+        run: |
+          git config --local user.name "Github Actions"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          lerna publish --yes
+      
