@@ -1,3 +1,5 @@
 const getDate = () => {
-    return new Date();
+    return new Date()
 }
+
+export default getDate
