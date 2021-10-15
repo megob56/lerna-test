@@ -1,6 +1,6 @@
 {
   "name": "@megob56/date-logic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "date logic package returns the current date",
   "main": "index.js",
   "scripts": {
