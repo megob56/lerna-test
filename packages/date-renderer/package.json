@@ -1,6 +1,6 @@
 {
   "name": "@megob56/date-renderer",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "A package that renders the current date",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   "author": "Meaghan OBrien",
   "license": "ISC",
   "dependencies": {
-    "@megob56/date-logic": "^1.0.5"
+    "@megob56/date-logic": "^1.0.6"
   }
 }
